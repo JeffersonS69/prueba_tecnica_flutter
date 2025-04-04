@@ -20,7 +20,7 @@ Este proyecto es una aplicación desarrollada en Flutter que utiliza Firebase pa
 
 ### **1. Clonar el Repositorio**
 ```sh
-  git clone https://github.com/JeffersonS69/Prueba-Tecnica-Fluter.git
+  git clone https://github.com/JeffersonS69/prueba_tecnica_flutter.git
   cd mi_proyecto
 ```
 
