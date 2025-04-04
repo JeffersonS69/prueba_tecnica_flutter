@@ -31,6 +31,40 @@ Este proyecto es una aplicación desarrollada en Flutter que utiliza Firebase pa
 4. Descargar `google-services.json` (Android) y colocarlo en `android/app/`.
 5. Descargar `GoogleService-Info.plist` (iOS) y colocarlo en `ios/Runner/`.
 
+Ejemplo de `google-services.json`:
+
+```json
+{
+  "project_info": {
+    "project_number": "",
+    "project_id": "", 
+    "storage_bucket": ""
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "",
+        "android_client_info": {
+          "package_name": "com.example.aplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+```
+
 ### **3. Configurar Variables de Entorno**
 
 Se utiliza una carpeta `.env/` con un archivo `dev.json` para gestionar las credenciales de Firebase:
